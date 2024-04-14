@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: client-pod
+  labels:
+    components: web
+spec:
+  containers:
+    - name: client
+      image: stepehengrider/multi-client
+      ports:
+        - containePort: 3000
