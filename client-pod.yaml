@@ -9,4 +9,4 @@ spec:
     - name: client
       image: stepehengrider/multi-client
       ports:
-        - containePort: 3000
+        - containerPort: 3000
